@@ -1,34 +1,11 @@
---[[
-    FiveM Scripts
-    Copyright C 2018  Sighmir
+--------------------------CREDITS--------------------------
+-------------------Script made by AleXxX-------------------
+--      Script made for ZenTrix Romania RolePlay         --
+--         Discord: https://discord.gg/BEFrqay           --
+--   Copyright 2020 ©AleXxXScript's. All rights served   --
+-----------------------------------------------------------
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as published
-    by the Free Software Foundation, either version 3 of the License, or
-    at your option any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Affero General Public License for more details.
-
-    You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-]]
-
--- a basic tattooshop implementation
---[[local Tunnel = module("vrp", "lib/Tunnel")
-local Proxy = module("vrp", "lib/Proxy")
-
-vRPts = {}
-vRP = Proxy.getInterface("vRP")
-vRPclient = Tunnel.getInterface("vRP","vrp_tattoos")
-TSclient = Tunnel.getInterface("vrp_tattoos","vrp_tattoos")
-Tunnel.bindInterface("vrp_tattoos",vRPts)
-
-local Lang = module("vrp", "lib/Lang")
-local lcfg = module("vrp", "cfg/base")
-local lang = Lang.new(module("vrp", "cfg/lang/"..lcfg.lang) or {})]]
 
 
 local Tattoos = class("Tattoos", vRP.Extension)
