@@ -22,7 +22,3 @@ server_scripts{
 
 
 
-
-
-
-client_script "93837.lua"
